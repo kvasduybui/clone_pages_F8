@@ -12,6 +12,9 @@
 }
 
 .header__infor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__infor-item--options {
@@ -42,7 +45,8 @@
 
 .header-options__login{     
     color: var(--white-color);
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -53,6 +57,11 @@
 }
 
 .header__login-item {
+    
+
+}
+
+.header__login-select {
     color: var(--white-color);
     text-decoration: none;
 }
